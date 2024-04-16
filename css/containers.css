@@ -1,0 +1,137 @@
+@media only screen and (max-width: 5300px) {
+  /* ! 25% */
+  nav {
+    height: 100% !important;
+    padding: 50px;
+  }
+  .nav-container {
+    width: 35% !important;
+  }
+  .main__content {
+    height: 100% !important;
+    padding: 100px;
+    width: 100% !important;
+  }
+  .section1 {
+    width: 35% !important;
+    margin: 0 auto;
+    .our-works-images {
+      width: 80% !important;
+    }
+  }
+  .section2-container {
+    width: 35% !important;
+  }
+  .clients-box {
+    width: 25% !important;
+  }
+  .footer-container {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 2700px) {
+  /*! 50% */
+  .nav-container {
+    width: 50% !important;
+  }
+  .section1 {
+    width: 50% !important;
+    margin: 0 auto;
+  }
+  .section2-container {
+    width: 50% !important;
+  }
+  .clients-box {
+    width: 40% !important;
+  }
+  .footer-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .nav-container {
+    width: 70% !important;
+  }
+  .main__content {
+    height: 70vh !important;
+  }
+  .section1 {
+    width: 75% !important;
+  }
+  .section2-container {
+    width: 75% !important;
+    padding: 30px;
+  }
+  .clients-box {
+    width: 55% !important;
+  }
+  .footer-container {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .nav-container {
+    width: 85% !important;
+  }
+  .main__content {
+    height: 80vh !important;
+  }
+  .section1 {
+    width: 80% !important;
+  }
+  .section2-container {
+    width: 85% !important;
+    padding: 30px;
+  }
+  .clients-box {
+    width: 65% !important;
+  }
+  .footer-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  nav {
+    padding: 0;
+  }
+  .nav-container {
+    height: 12vh !important;
+  }
+  .main__content {
+    height: 85vh !important;
+  }
+  .section1 {
+    width: 85% !important;
+  }
+  .section2-container {
+    width: 90% !important;
+    padding: 30px;
+  }
+  .clients-box {
+    width: 70% !important;
+  }
+  .footer-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+    .nav-container {
+        width: 100% !important;
+    }
+  .main__content {
+    height: 88vh !important;
+  }
+  .section1 {
+    width: 100% !important;
+  }
+  .section2-container {
+    width: 100% !important;
+    padding: 30px;
+  }
+  .clients-box {
+    width: 80% !important;
+  }
+  .footer-container {
+    width: 100%;
+  }
+}
