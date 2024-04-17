@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="shortcut icon" href="../logos/w-logo.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
@@ -21,14 +22,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/xxl-version.css" />
+    <link rel="stylesheet" href="./css/containers.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/sm-version.css" />
-    <link rel="stylesheet" href="./css/md-version.css" />
     <link rel="stylesheet" href="./css/xl-version.css" />
+    <link rel="stylesheet" href="./css/md-version.css" />
+    <link rel="stylesheet" href="./css/sm-version.css" />
   </head>
 
   <body>
+    <!--! NAV START -->
     <nav>
       <div class="nav-container">
         <div class="nav-left">
@@ -37,7 +39,7 @@
           </a>
           <ul>
             <li><a href="../index.html">Студия</a></li>
-            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="index.html" id="portolio">Портфолио</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
         </div>
@@ -58,7 +60,8 @@
         </div>
       </div>
     </nav>
-    <!-- NAV END -->
+    <!--! NAV END -->
+    <!--! CATEGORIES BUTTON -->
     <section class="categories-container">
       <div class="categories">
         <div class="categories__category1 category">
@@ -78,11 +81,12 @@
         </div>
       </div>
     </section>
-    <section class="container">
-      <div class="cards">
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img1.svg" alt="" />
+    <!--! Categories buttons end -->
+    <!--! Cards section start -->
+    <section class="cards-section">
+      <div class="cards-container">
+        <a href="#" class="card">
+          <div class="img img1">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -93,10 +97,9 @@
           </div>
           <h5>Технокряк</h5>
           <p>Веб-сайт</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img2.svg" alt="" />
+        </a>
+        <a href="#" class="card card2">
+          <div class="img img2">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -107,10 +110,9 @@
           </div>
           <h5 class="img2-h5">Постер New Orlean vs Golden Star</h5>
           <p>Дизайн</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img3.svg" alt="" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img3">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -121,10 +123,9 @@
           </div>
           <h5>Ресторан Seafood</h5>
           <p>Приложение</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img4.svg" alt="" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img4">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -135,10 +136,9 @@
           </div>
           <h5>Проект Prime</h5>
           <p>Маркетинг</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img5.svg" alt="" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img5">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -149,10 +149,9 @@
           </div>
           <h5>Проект Boxes</h5>
           <p>Приложение</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img6.svg" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img6">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -163,10 +162,9 @@
           </div>
           <h5>Inspiration has no Borders</h5>
           <p>Веб-сайт</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img7.svg" alt="" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img7">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -177,10 +175,9 @@
           </div>
           <h5>Издание Limited Edition</h5>
           <p>Дизайн</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img8.svg" alt="" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img8">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -191,10 +188,9 @@
           </div>
           <h5>Проект LAB</h5>
           <p>Маркетинг</p>
-        </div>
-        <div class="card">
-          <div class="img">
-            <img src="./Images/img9.svg" alt="" />
+        </a>
+        <a href="#" class="card">
+          <div class="img img9">
             <div class="card__blue-container">
               <p>
                 Ресурс предлагает комплексные предложения с разным уровнем
@@ -205,55 +201,68 @@
           </div>
           <h5>Growing Business</h5>
           <p>Приложение</p>
-        </div>
+        </a>
       </div>
     </section>
-    <!-- ------------FOOTER -->
+    <!--! Cards section end -->
+    <!--! ------------FOOTER ----------->
     <footer>
-      <div class="footer-left">
-        <h1>
-          <a href="../index.html"><span class="color-blue">Web</span>Studio</a>
-        </h1>
-        <h4><a href="">г. Киев, пр-т Леси Украинки, 26</a></h4>
-        <a href="mailto:">
-          <p>info@example.com</p>
-        </a>
-        <a href="telto:">
-          <p>+38 099 111 11 11</p>
-        </a>
-      </div>
-      <div class="footer-center">
-        <div class="join">
-          <h1>присоединяйтесь</h1>
+      <div class="footer-container">
+        <!--? FOOTER LEFT -->
+        <div class="footer-left">
+          <h1>
+            <a href="../index.html"><span class="color-blue">Web</span>Studio</a>
+          </h1>
+          <h4>
+            <a href="" style="color: #fff">г. Киев, пр-т Леси Украинки, 26</a>
+          </h4>
+          <a href="mailto:">
+            <p>info@example.com</p>
+          </a>
+          <a href="telto:">
+            <p>+38 099 111 11 11</p>
+          </a>
         </div>
-        <div class="footer-icons">
-          <a href=""
-            ><i class="fa-solid fa-circle footer-circle">
-              <i class="fa-brands fa-instagram"></i> </i
-          ></a>
-          <a href=""
-            ><i class="fa-solid fa-circle footer-circle">
-              <i class="fa-brands fa-twitter"></i> </i
-          ></a>
-          <a href=""
-            ><i class="fa-solid fa-circle footer-circle">
-              <i class="fa-brands fa-facebook-f"></i> </i
-          ></a>
-          <a href=""
-            ><i class="fa-solid fa-circle footer-circle">
-              <i class="fa-brands fa-linkedin-in"></i> </i
-          ></a>
+        <!--? FOOTER CENTER -->
+        <div class="footer-center">
+          <div class="join">
+            <h1>присоединяйтесь</h1>
+          </div>
+          <div class="footer-icons">
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-instagram"></i>
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-twitter"></i>
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-facebook-f"></i>
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </i>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="footer-right">
-        <div class="footer-input">
-          <h2>Подпишитесь на рассылку</h2>
-          <input type="email" class="email-input" placeholder="E-mail" />
-          <a href=""
-            ><input type="button" value="Подписаться" class="sub-btn"
-          /></a>
+        <!--? FOOTER RIGHT -->
+        <div class="footer-right">
+          <div class="footer-input">
+            <h2>Подпишитесь на рассылку</h2>
+            <input type="email" class="email-input" placeholder="E-mail" />
+            <a href="">
+              <input type="button" value="Подписаться" class="sub-btn" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
+    <!--! Footer End -->
   </body>
 </html>

@@ -93,9 +93,9 @@ nav a:hover {
 .nav-right {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
   width: 50%;
-  justify-content: center;
 }
 .nav-right .bars {
   display: none;
@@ -580,5 +580,3 @@ footer {
   box-shadow: none;
 }
 /*! ---------------- FOOTER END ----------------- */
-
-/*! --------- animation for clients card */

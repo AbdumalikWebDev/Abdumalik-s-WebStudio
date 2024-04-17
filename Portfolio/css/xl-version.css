@@ -1,19 +1,6 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
   html {
-    font-size: 20px;
-  }
-  nav .nav-left h1 {
-    padding: 0 45px;
-  }
-  .categories button {
-    font-size: 1rem;
-  }
-  .cards .card h5 {
-    font-size: smaller;
-    letter-spacing: 100%;
-    max-width: 100%;
-    text-indent: 1rem;
-    text-align: center;
+    font-size: 15px;
   }
   .card p {
     max-width: 100%;
@@ -21,9 +8,38 @@
     font-size: 0.8rem;
     line-height: 200%;
   }
-  .img2-h5 {
-    text-indent: 0 !important;
-    text-align: center !important;
-    font-size: 0.8rem !important;
+  .card__blue-container p {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (min-width:851px) and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  nav .nav-left h1 {
+    padding: 0 45px;
+  }
+  
+  .card__blue-container {
+    display: none !important;
+  }
+  .categories button {
+    font-size: 1rem;
+  }
+  .footer-left {
+    padding: 40px 75px;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .footer-right * {
+    margin-top: 15px;
   }
 }
