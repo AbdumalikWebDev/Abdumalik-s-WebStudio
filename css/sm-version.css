@@ -3,129 +3,250 @@
   --white: #fff;
   --black: #000;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 361px) and (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-left h1 {
+      padding: 0px 50px;
+    }
+    .nav-left ul {
+      display: none;
+    }
+    .nav-right ul {
+      display: none;
+    }
+    .nav-right {
+      width: 15%;
+    }
+    .nav-right .bars {
+      display: inline-block;
+      padding: 0;
+      font-size: 2rem;
+    }
+  }
+  .main__content h1 {
+    max-width: 90% !important;
+  }
+  .main__content button {
+    font-size: 1.2rem;
+  }
+  .descriptions {
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: nowrap;
+    .description {
+      width: 70%;
+      margin-bottom: 40px;
+      p {
+        max-width: 100%;
+      }
+    }
+  }
+  .our-works-images {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    gap: 20px;
+    .img1,
+    .img2,
+    .img3 {
+      width: 80%;
+    }
+  }
+  .clients {
+    flex-wrap: wrap;
+    .client {
+      width: calc(50% - 20px);
+    }
+  }
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+    .team-card {
+      width: 70%;
+      h6 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+    .team-card1-icons,
+    .team-card2-icons,
+    .team-card3-icons,
+    .team-card4-icons {
+      justify-content: space-around;
+    }
+  }
+  .footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    * {
+      text-align: center;
+    }
+    .footer-left {
+      padding: 0;
+      margin: 20px auto;
+      h1 a {
+        font-size: 2rem;
+      }
+      a {
+        margin-bottom: 0;
+      }
+    }
+    .footer-center {
+      margin-bottom: 20px;
+      margin-inline: auto;
+      width: fit-content;
+    }
+    .footer-right {
+      .email-input {
+        margin-bottom: 10px;
+        text-align: start;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 360px) {
   html {
     font-size: 10px;
   }
-  body {
-    max-width: 576px;
-  }
   nav {
-    width: 100%;
-  }
-  main {
-    width: 100%;
-    margin-bottom: 0;
-  }
-  main h1 {
-    line-height: 150%;
-  }
-  .nav-left ul {
-    display: none;
-  }
-  .nav-left h1 {
-    font-weight: 800;
-    font-size: 4rem;
-  }
-  .nav-right ul {
-    display: none ;
-  }
-  .bars {
-    display: inline-block !important;
-    font-size: 30px;
-    margin-left: 100px;
-  }
-  .nav-right {
     display: flex;
-    justify-content: end;
     align-items: center;
-    width: 40%;
-    padding-right: 25px;
-    height: 100%;
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-left h1 {
+      padding: 0px 30px;
+    }
+    .nav-left ul {
+      display: none;
+    }
+    .nav-right ul {
+      display: none;
+    }
+    .nav-right {
+      width: 15%;
+    }
+    .nav-right .bars {
+      display: inline-block;
+      padding: 0;
+      font-size: 2rem;
+    }
   }
-  main {
-    background-image: url("../Images/main.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 480px;
+  .main__content h1 {
+    max-width: 90% !important;
   }
-  main h1 {
-    font-size: 2rem;
-    color: var(--white);
-    text-align: center;
-    font-weight: 900;
-    line-height: 42px;
-    letter-spacing: 1.56px;
-    text-transform: uppercase;
-  }
-  main button {
-    width: 20rem;
+  .main__content button {
+    font-size: 1.2rem;
   }
   .descriptions {
-    width: 100%;
-    margin-top: 10px;
-    height: 1114px;
-  }
-  .description img {
-    width: 90%;
-    height: 120px;
-    margin-bottom: 30px;
-  }
-  .description p {
-    text-align: center;
-    max-width: 100%;
-    margin-bottom: -30px;
-  }
-  .description {
+    flex-direction: column;
     width: 80%;
-    display: flex;
+    flex-wrap: nowrap;
+    .description {
+      width: 70%;
+      margin-bottom: 40px;
+      p {
+        max-width: 100%;
+      }
+    }
+  }
+  .our-works-images {
+    flex-direction: column;
+    width: 80%;
     align-items: center;
-    height: 250px;
-    justify-content: center;
-    margin: 0;
-  }
-  .descriptions h1 {
-    text-align: center;
-  }
-  .our-group {
-    margin-top: 50px;
-  }
-  .our-group h1 {
-    font-size: 2rem;
-  }
-  .team-cards {
-    justify-content: center;
-    height: fit-content;
-  }
-  .team-card {
-    width: 90%;
-    height: fit-content;
-    margin-bottom: 30px;
-  }
-  .team-card1-icons,
-  .team-card2-icons,
-  .team-card3-icons,
-  .team-card4-icons {
-    justify-content: space-around;
-  }
-  .clients-name {
-    margin-bottom: -30px;
+    gap: 20px;
+    .gray-container {
+      transform: translateY(50%);
+    }
+    .img1,
+    .img2,
+    .img3 {
+      width: 80%;
+      height: 220px !important;
+      flex-shrink: 0;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      &:hover {
+        .gray-container {
+          transform: translateY(-100%);
+          height: 50px;
+        }
+      }
+    }
   }
   .clients {
-    width: 440px;
-    height: 400px;
+    flex-wrap: wrap;
+    .client {
+      width: calc(50% - 20px);
+    }
   }
-  .client {
-    width: 210px;
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+    .team-card {
+      width: 70%;
+      h6 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+    .team-card1-icons,
+    .team-card2-icons,
+    .team-card3-icons,
+    .team-card4-icons {
+      justify-content: space-around;
+    }
   }
-  footer {
+  .footer-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
-  }
-  .footer-center {
-    margin-bottom: 60px;
-  }
-  footer * {
-    text-align: center;
+    * {
+      text-align: center;
+    }
+    .footer-left {
+      padding: 0;
+      margin: 20px auto;
+      h1 a {
+        font-size: 2rem;
+      }
+      a {
+        margin-bottom: 0;
+      }
+    }
+    .footer-center {
+      margin-bottom: 20px;
+      margin-inline: auto;
+      width: fit-content;
+    }
+    .footer-right {
+      .email-input {
+        margin-bottom: 10px;
+        text-align: start;
+      }
+    }
   }
 }

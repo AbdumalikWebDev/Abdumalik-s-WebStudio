@@ -1,227 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./css/xxl-version.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/sm-version.css">
-    <link rel="stylesheet" href="./css/md-version.css">
-    <link rel="stylesheet" href="./css/xl-version.css">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/xxl-version.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sm-version.css" />
+    <link rel="stylesheet" href="./css/md-version.css" />
+    <link rel="stylesheet" href="./css/xl-version.css" />
+  </head>
 
-<body>
+  <body>
     <nav>
+      <div class="nav-container">
         <div class="nav-left">
-            <a href="../index.html">
-                <h1><span class="color-blue">Web</span>Studio</h1>
-            </a>
-            <ul>
-                <li><a href="../index.html">Студия</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+          <a href="../index.html">
+            <h1><span class="color-blue">Web</span>Studio</h1>
+          </a>
+          <ul>
+            <li><a href="../index.html">Студия</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
         </div>
         <div class="nav-right">
-            <ul>
-                <li>
-                    <a href="mailto:"><i class="fa-regular fa-envelope"></i> info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="telto:" class="color-gray number"><i class="fa-solid fa-phone"></i> +38 096 111 11 11</a>
-                </li>
-            </ul>
-            <i class="fa-solid fa-bars bars"></i>
+          <ul>
+            <li>
+              <a href="mailto:" class="email"
+                ><i class="fa-regular fa-envelope"></i> info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="telto:" class="color-gray number"
+                ><i class="fa-solid fa-phone"></i> +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-bars bars"></i>
         </div>
+      </div>
     </nav>
     <!-- NAV END -->
-    <section class="container">
-        <div class="categories">
-            <div class="categories__category1 category">
-                <a href=""><button>Все</button></a>
-            </div>
-            <div class="categories__category2 category">
-                <a href=""><button>Веб-сайты</button></a>
-            </div>
-            <div class="categories__category3 category">
-                <a href=""><button>Приложения</button></a>
-            </div>
-            <div class="categories__category4 category">
-                <a href=""><button>Дизайн</button></a>
-            </div>
-            <div class="categories__category5 category">
-                <a href=""><button>Маркетинг</button></a>
-            </div>
+    <section class="categories-container">
+      <div class="categories">
+        <div class="categories__category1 category">
+          <a href=""><button>Все</button></a>
         </div>
+        <div class="categories__category2 category">
+          <a href=""><button>Веб-сайты</button></a>
+        </div>
+        <div class="categories__category3 category">
+          <a href=""><button>Приложения</button></a>
+        </div>
+        <div class="categories__category4 category">
+          <a href=""><button>Дизайн</button></a>
+        </div>
+        <div class="categories__category5 category">
+          <a href=""><button>Маркетинг</button></a>
+        </div>
+      </div>
     </section>
     <section class="container">
-        <div class="cards">
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img1.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Технокряк</h5>
-                <p>Веб-сайт</p>
+      <div class="cards">
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img1.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
             </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img2.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5 class="img2-h5">Постер New Orlean vs Golden Star</h5>
-                <p>Дизайн</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img3.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Ресторан Seafood</h5>
-                <p>Приложение</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img4.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Проект Prime</h5>
-                <p>Маркетинг</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img5.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Проект Boxes</h5>
-                <p>Приложение</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img6.svg">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Inspiration has no Borders</h5>
-                <p>Веб-сайт</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img7.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Издание Limited Edition</h5>
-                <p>Дизайн</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img8.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Проект LAB</h5>
-                <p>Маркетинг</p>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="./Images/img9.svg" alt="">
-                    <div class="card__blue-container">
-                        <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
-                            это
-                            позволит посетителю получить
-                            исчерпывающие сведения о компании или частном лице.</p>
-                    </div>
-                </div>
-                <h5>Growing Business</h5>
-                <p>Приложение</p>
-            </div>
+          </div>
+          <h5>Технокряк</h5>
+          <p>Веб-сайт</p>
         </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img2.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5 class="img2-h5">Постер New Orlean vs Golden Star</h5>
+          <p>Дизайн</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img3.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Ресторан Seafood</h5>
+          <p>Приложение</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img4.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Проект Prime</h5>
+          <p>Маркетинг</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img5.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Проект Boxes</h5>
+          <p>Приложение</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img6.svg" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Inspiration has no Borders</h5>
+          <p>Веб-сайт</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img7.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Издание Limited Edition</h5>
+          <p>Дизайн</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img8.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Проект LAB</h5>
+          <p>Маркетинг</p>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./Images/img9.svg" alt="" />
+            <div class="card__blue-container">
+              <p>
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <h5>Growing Business</h5>
+          <p>Приложение</p>
+        </div>
+      </div>
     </section>
     <!-- ------------FOOTER -->
     <footer>
-        <div class="footer-left">
-            <h1><a href="../index.html"><span class="color-blue">Web</span>Studio</a></h1>
-            <h4><a href="">г. Киев, пр-т Леси Украинки, 26</a></h4>
-            <a href="mailto:">
-                <p>info@example.com</p>
-            </a>
-            <a href="telto:">
-                <p>+38 099 111 11 11</p>
-            </a>
+      <div class="footer-left">
+        <h1>
+          <a href="../index.html"><span class="color-blue">Web</span>Studio</a>
+        </h1>
+        <h4><a href="">г. Киев, пр-т Леси Украинки, 26</a></h4>
+        <a href="mailto:">
+          <p>info@example.com</p>
+        </a>
+        <a href="telto:">
+          <p>+38 099 111 11 11</p>
+        </a>
+      </div>
+      <div class="footer-center">
+        <div class="join">
+          <h1>присоединяйтесь</h1>
         </div>
-        <div class="footer-center">
-            <div class="join">
-                <h1>присоединяйтесь</h1>
-            </div>
-            <div class="footer-icons">
-                <a href=""><i class="fa-solid fa-circle footer-circle">
-                        <i class="fa-brands fa-instagram"></i>
-                    </i></a>
-                <a href=""><i class="fa-solid fa-circle footer-circle">
-                        <i class="fa-brands fa-twitter"></i>
-                    </i></a>
-                <a href=""><i class="fa-solid fa-circle footer-circle">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </i></a>
-                <a href=""><i class="fa-solid fa-circle footer-circle">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </i></a>
-            </div>
+        <div class="footer-icons">
+          <a href=""
+            ><i class="fa-solid fa-circle footer-circle">
+              <i class="fa-brands fa-instagram"></i> </i
+          ></a>
+          <a href=""
+            ><i class="fa-solid fa-circle footer-circle">
+              <i class="fa-brands fa-twitter"></i> </i
+          ></a>
+          <a href=""
+            ><i class="fa-solid fa-circle footer-circle">
+              <i class="fa-brands fa-facebook-f"></i> </i
+          ></a>
+          <a href=""
+            ><i class="fa-solid fa-circle footer-circle">
+              <i class="fa-brands fa-linkedin-in"></i> </i
+          ></a>
         </div>
-        <div class="footer-right">
-            <div class="footer-input">
-                <h2>Подпишитесь на рассылку</h2>
-                <input type="email" class="email-input" placeholder="E-mail">
-                <a href=""><input type="button" value="Подписаться" class="sub-btn"></a>
-            </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-input">
+          <h2>Подпишитесь на рассылку</h2>
+          <input type="email" class="email-input" placeholder="E-mail" />
+          <a href=""
+            ><input type="button" value="Подписаться" class="sub-btn"
+          /></a>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

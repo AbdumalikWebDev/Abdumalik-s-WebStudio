@@ -1,4 +1,4 @@
-@media only screen and (max-width: 5300px) {
+@media only screen and (min-width: 2701px) and (max-width: 5300px) {
   /* ! 25% */
   nav {
     height: 100% !important;
@@ -24,15 +24,19 @@
   }
   .clients-box {
     width: 25% !important;
+    padding-block: 50px;
   }
   .footer-container {
     width: 35%;
   }
 }
-@media only screen and (max-width: 2700px) {
+@media only screen and (min-width: 2001px) and (max-width: 2700px) {
   /*! 50% */
   .nav-container {
     width: 50% !important;
+  }
+  .main__content {
+    padding-block: 200px;
   }
   .section1 {
     width: 50% !important;
@@ -43,12 +47,13 @@
   }
   .clients-box {
     width: 40% !important;
+    padding-block: 50px;
   }
   .footer-container {
     width: 50%;
   }
 }
-@media only screen and (max-width: 2000px) {
+@media only screen and (min-width: 1801px) and (max-width: 2000px) {
   .nav-container {
     width: 70% !important;
   }
@@ -64,12 +69,13 @@
   }
   .clients-box {
     width: 55% !important;
+    padding-block: 50px;
   }
   .footer-container {
     width: 70%;
   }
 }
-@media only screen and (max-width: 1800px) {
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
   .nav-container {
     width: 85% !important;
   }
@@ -85,12 +91,13 @@
   }
   .clients-box {
     width: 65% !important;
+    padding-block: 50px;
   }
   .footer-container {
     width: 80%;
   }
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
   nav {
     padding: 0;
   }
@@ -109,15 +116,16 @@
   }
   .clients-box {
     width: 70% !important;
+    padding-block: 50px;
   }
   .footer-container {
     width: 90%;
   }
 }
 @media only screen and (max-width: 1400px) {
-    .nav-container {
-        width: 100% !important;
-    }
+  .nav-container {
+    width: 100% !important;
+  }
   .main__content {
     height: 88vh !important;
   }
@@ -125,7 +133,7 @@
     width: 100% !important;
   }
   .section2-container {
-    width: 100% !important;
+    width: 90% !important;
     padding: 30px;
   }
   .clients-box {

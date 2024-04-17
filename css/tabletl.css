@@ -1,0 +1,48 @@
+@media only screen and (min-width: 769px) and (max-width: 850px) {
+  html {
+    font-size: 14px;
+  }
+  .nav-left h1 {
+    padding: 0px 50px;
+  }
+  .nav-right ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-wrap: nowrap;
+    li {
+      padding: 0 !important;
+    }
+  }
+  .description {
+    width: calc(25% - 10px);
+  }
+  .our-works-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    width: calc(50% - 30px);
+  }
+  .clients {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+  .footer-left {
+    padding: 50px 50px;
+  }
+  .footer-right {
+    height: 100%;
+    padding-top: 50px;
+    margin-left: 20px;
+    .email-input {
+      margin-bottom: 20px;
+    }
+  }
+}

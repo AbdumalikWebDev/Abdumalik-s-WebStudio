@@ -34,11 +34,19 @@ body {
 }
 /* ---------------------------- */
 nav {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.nav-container {
   display: flex;
   justify-content: space-between;
-  height: 12vh;
-  align-items: center !important;
-  border-bottom: 1px solid #ececec;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
 }
 nav a {
   color: var(--nav-textcolor);
@@ -55,14 +63,13 @@ nav a {
 }
 .nav-left h1 {
   font-family: "Raleway", sans-serif !important;
-  font-size: clamp(1rem, 3vw, 3rem);
+  font-size: 2rem;
   padding: 0 110px;
   font-weight: 700;
   color: #000;
 }
 .nav-left li {
   position: relative;
-  font-size: clamp(14px, 1vw, 1.5rem);
 }
 .nav-left li::after {
   content: "";
@@ -71,9 +78,8 @@ nav a {
   border-radius: 2px;
   position: absolute;
   background-color: var(--hover-color);
-  top: 200%;
+  bottom: -150%;
   left: 0%;
-  transform: rotate(180deg);
 }
 .nav-left li:hover::after {
   width: 100%;
@@ -94,21 +100,18 @@ nav a:hover {
 }
 .nav-right ul {
   display: flex;
-  align-items: center !important;
-  justify-content: center !important;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-}
-.nav-right ul li{
-  display: flex;
   align-items: center;
-  padding: 0;
+}
+.nav-right li {
   padding-left: 30px;
-  a {
-    font-size: clamp(14px, 1vw, 1.5rem);
-    text-wrap: nowrap;
-  }
+}
+.nav-right .email {
+  text-wrap: nowrap;
+  font-size: clamp(0.8rem, 1vw, 1.5rem);
+}
+.number {
+  text-wrap: nowrap;
+  font-size: clamp(0.8rem, 1vw, 1.5rem);
 }
 /* NAV END */
 .categories {

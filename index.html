@@ -25,12 +25,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/containers.css" />
     <link rel="stylesheet" href="./css/webstudio.css" />
-    <link rel="stylesheet" href="./css/tabletversion.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tabletl.css" />
     <link rel="stylesheet" href="./css/md-version.css" />
     <link rel="stylesheet" href="./css/sm-version.css" />
   </head>
 
   <body>
+    <!--!---------------------------NAVBAR START------------------------------->
     <nav>
       <div class="nav-container">
         <div class="nav-left">
@@ -38,35 +40,50 @@
             <h1><span class="color-blue">Web</span>Studio</h1>
           </a>
           <ul>
-            <li><a href="webstudio.html">Студия</a></li>
-            <li><a href="./Portfolio/portfolio.html">Портфолио</a></li>
-            <li><a href="./contact/contact.html">Контакты</a></li>
+            <li>
+              <a href="webstudio.html">Студия</a>
+            </li>
+            <li>
+              <a href="./Portfolio/portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a href="./contact/contact.html">Контакты</a>
+            </li>
           </ul>
         </div>
         <div class="nav-right">
           <ul>
             <li>
-              <a href="mailto:"
-                ><i class="fa-regular fa-envelope"></i> info@devstudio.com</a
-              >
+              <a href="mailto:" class="email">
+                <i class="fa-regular fa-envelope"></i> info@devstudio.com
+              </a>
             </li>
             <li>
-              <a href="telto:" class="color-gray number"
-                ><i class="fa-solid fa-phone"></i> +38 096 111 11 11</a
-              >
+              <a href="telto:" class="color-gray number">
+                <i class="fa-solid fa-phone"></i> +38 096 111 11 11
+              </a>
             </li>
           </ul>
           <i class="fa-solid fa-bars bars"></i>
         </div>
       </div>
     </nav>
+    <!--!--------------------------NAVBAR END------------------------------->
+    <!--!--------------------------MAIN START------------------------------->
     <main>
-      <div class="main__content">
-        <h1>Эффективные решения <br />для вашего бизнеса</h1>
-        <a href=""><button>Заказать услугу</button></a>
+      <div class="main-wrapper">
+        <div class="main__content">
+          <h1>Эффективные решения <br />для вашего бизнеса</h1>
+          <a href="">
+            <button>Заказать услугу</button>
+          </a>
+        </div>
       </div>
     </main>
+    <!--!--------------------------MAIN END--------------------------------->
+    <!--!--------------------------SECTION 1 START-------------------------->
     <section class="section1">
+      <!--* -----------------------DESCRIPTIONS----------------------------->
       <div class="descriptions">
         <div
           class="description1 description"
@@ -75,7 +92,9 @@
           data-aos-offset="50"
           data-aos-anchor-placement="top-bottom"
         >
-          <img src="./Images/description1.png" alt="" />
+          <div class="description-img-box">
+            <img src="./Images/description1.svg" alt="" />
+          </div>
           <h1>Внимание к деталям</h1>
           <p>
             Идейные соображения, a также начало повседневной работы по
@@ -89,7 +108,9 @@
           data-aos-offset="50"
           data-aos-anchor-placement="top-bottom"
         >
-          <img src="./Images/description2.svg" alt="" />
+          <div class="description-img-box">
+            <img src="./Images/description2.svg" alt="" />
+          </div>
           <h1>Пунктуальность</h1>
           <p>
             Задача организации, в особенности же рамки и место обучения кадров
@@ -103,7 +124,9 @@
           data-aos-offset="50"
           data-aos-anchor-placement="top-bottom"
         >
-          <img src="./Images/description3.svg" alt="" />
+          <div class="description-img-box">
+            <img src="./Images/description3.svg" alt="" />
+          </div>
           <h1>Планирование</h1>
           <p>
             Равным образом консультация c широким активом в значительной степени
@@ -117,7 +140,9 @@
           data-aos-offset="50"
           data-aos-anchor-placement="top-bottom"
         >
-          <img src="./Images/description4.png" alt="" />
+          <div class="description-img-box">
+            <img src="./Images/description4.svg" alt="" />
+          </div>
           <h1>Современные технологии</h1>
           <p>
             Значимость этих проблем настолько очевидна, что реализация плановых
@@ -125,6 +150,8 @@
           </p>
         </div>
       </div>
+      <!--* -----------------------DESCRIPTIONS END-------------------------->
+      <!--* -----------------------OUR WORKS START--------------------------->
       <div class="our-works">
         <h1
           data-aos="fade-left"
@@ -142,7 +169,7 @@
           data-aos-anchor-placement="top-center"
         >
           <img src="./Images/ourworks.png" alt="" />
-          <div class="gray-container1">
+          <div class="gray-container">
             <h2>Десктопные приложения</h2>
           </div>
         </a>
@@ -153,7 +180,7 @@
           data-aos-anchor-placement="top-center"
         >
           <img src="./Images/ourworks3.png" alt="" />
-          <div class="gray-container2">
+          <div class="gray-container">
             <h2>Мобильные приложения</h2>
           </div>
         </a>
@@ -164,12 +191,15 @@
           data-aos-anchor-placement="top-center"
         >
           <img src="./Images/ourworks2.png" alt="" />
-          <div class="gray-container3">
+          <div class="gray-container">
             <h2>Дизайнерские решения</h2>
           </div>
         </a>
       </div>
+      <!--* -----------------------OUR WORKS END--------------------------->
     </section>
+    <!--!--------------------------SECTION 1 END--------------------------->
+    <!--!--------------------------SECTION 2 START------------------------->
     <section class="section2">
       <div class="section2-container">
         <div class="our-group">
@@ -186,22 +216,26 @@
             <h6>Игорь Демьяненко</h6>
             <p>Product Designer</p>
             <div class="team-card1-icons team-card__icon">
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-instagram"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-twitter"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-facebook-f"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-linkedin-in"></i> </i
-              ></a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-instagram"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-twitter"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </i>
+              </a>
             </div>
           </div>
           <div
@@ -214,22 +248,26 @@
             <h6>Ольга Репина</h6>
             <p>Frontend Developer</p>
             <div class="team-card2-icons team-card__icon">
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-instagram"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-twitter"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-facebook-f"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-linkedin-in"></i> </i
-              ></a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-instagram"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-twitter"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </i>
+              </a>
             </div>
           </div>
           <div
@@ -242,22 +280,26 @@
             <h6>Николай Тарасов</h6>
             <p>Marketing</p>
             <div class="team-card3-icons team-card__icon">
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-instagram"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-twitter"></i></i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-facebook-f"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-linkedin-in"></i> </i
-              ></a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-instagram"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-twitter"></i
+                ></i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </i>
+              </a>
             </div>
           </div>
           <div
@@ -270,68 +312,77 @@
             <h6>Михаил Ермаков</h6>
             <p>UI Designer</p>
             <div class="team-card4-icons team-card__icon">
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-instagram"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-twitter"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-facebook-f"></i> </i
-              ></a>
-              <a href=""
-                ><i class="fa-solid fa-circle circle">
-                  <i class="fa-brands fa-linkedin-in"></i> </i
-              ></a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-instagram"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-twitter"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-circle circle">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </i>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!--!--------------------------SECTION 2 END------------------------->
+    <!--!--------------------------SECTION 3 START----------------------->
     <section class="section3">
       <div class="clients-box">
         <div class="clients-name">
           <h1>Постоянные клиенты</h1>
         </div>
         <div class="clients">
-          <a href="">
-            <div class="client1 client" data-aos="flip-down">
+          <a href="" class="client1 client">
+            <div data-aos="flip-down">
               <img src="./icons/client1icon.svg" alt="" />
             </div>
           </a>
-          <a href="">
-            <div class="client2 client" data-aos="flip-down">
+          <a href="" class="client2 client">
+            <div data-aos="flip-down">
               <img src="./icons/client2icon.svg" alt="" />
             </div>
           </a>
-          <a href="">
-            <div class="client3 client" data-aos="flip-down">
+          <a href="" class="client3 client">
+            <div data-aos="flip-down">
               <img src="./icons/client3icon.svg" alt="" />
             </div>
           </a>
-          <a href="">
-            <div class="client4 client" data-aos="flip-down">
+          <a href="" class="client4 client">
+            <div data-aos="flip-down">
               <img src="./icons/client4icon.svg" alt="" />
             </div>
           </a>
-          <a href="">
-            <div class="client5 client" data-aos="flip-down">
+          <a href="" class="client5 client">
+            <div data-aos="flip-down">
               <img src="./icons/client5icon.svg" alt="" />
             </div>
           </a>
-          <a href="">
-            <div class="client6 client" data-aos="flip-down">
+          <a href="" class="client6 client">
+            <div data-aos="flip-down">
               <img src="./icons/client6icon.svg" alt="" />
             </div>
           </a>
         </div>
       </div>
     </section>
+    <!--!--------------------------SECTION 3 END----------------------->
+    <!--!--------------------------FOOTER START------------------------>
     <footer>
       <div class="footer-container">
+        <!--? FOOTER LEFT -->
         <div class="footer-left">
           <h1>
             <a href="index.html"><span class="color-blue">Web</span>Studio</a>
@@ -346,40 +397,47 @@
             <p>+38 099 111 11 11</p>
           </a>
         </div>
+        <!--? FOOTER CENTER -->
         <div class="footer-center">
           <div class="join">
             <h1>присоединяйтесь</h1>
           </div>
           <div class="footer-icons">
-            <a href=""
-              ><i class="fa-solid fa-circle footer-circle">
-                <i class="fa-brands fa-instagram"></i> </i
-            ></a>
-            <a href=""
-              ><i class="fa-solid fa-circle footer-circle">
-                <i class="fa-brands fa-twitter"></i> </i
-            ></a>
-            <a href=""
-              ><i class="fa-solid fa-circle footer-circle">
-                <i class="fa-brands fa-facebook-f"></i> </i
-            ></a>
-            <a href=""
-              ><i class="fa-solid fa-circle footer-circle">
-                <i class="fa-brands fa-linkedin-in"></i> </i
-            ></a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-instagram"></i>
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-twitter"></i>
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-facebook-f"></i>
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-circle footer-circle">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </i>
+            </a>
           </div>
         </div>
+        <!--? FOOTER RIGHT -->
         <div class="footer-right">
           <div class="footer-input">
             <h2>Подпишитесь на рассылку</h2>
             <input type="email" class="email-input" placeholder="E-mail" />
-            <a href=""
-              ><input type="button" value="Подписаться" class="sub-btn"
-            /></a>
+            <a href="">
+              <input type="button" value="Подписаться" class="sub-btn" />
+            </a>
           </div>
         </div>
       </div>
     </footer>
+    <!--!--------------------------FOOTER END------------------------>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({

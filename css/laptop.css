@@ -1,15 +1,18 @@
-/* ---------------TABLET VERSION-------------- */
-:root {
-  --nav-textcolor: #212121;
-  --white: #fff;
-  --black: #000;
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    width: calc(33% - 20px);
+  }
 }
-@media only screen and (max-width: 1024px) {
+
+
+@media only screen and (min-width:851px) and (max-width: 1024px) {
   html {
     font-size: 14px;
-  }
-  body {
-    width: 1024px;
   }
   .nav-left h1 {
     font-family: "Raleway", sans-serif !important;
@@ -36,6 +39,9 @@
   .nav-right .bars {
     display: none;
   }
+  .nav-right li {
+    padding-left: 10px;
+  }
   main {
     width: 100%;
     display: flex;
@@ -50,20 +56,25 @@
     width: 90%;
     flex-wrap: nowrap;
   }
-  .descriptions h1 {
-    font-size: 1rem;
+  .description {
+    width: calc(25% - 20px);
   }
   .descriptions p {
-    max-width: 100px;
+    max-width: 200px;
   }
+  
   .our-works-images {
-    width: 100%;
+    width: 90%;
   }
   .img1,
   .img2,
   .img3 {
     width: 30%;
-    height: 60%;
+    height: 250px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
   .img1:hover .gray-container1 {
     transform: translateY(-120px);
@@ -90,7 +101,7 @@
   }
   .team-card {
     width: 22%;
-    height: 340px;
+    height: 100%;
   }
   .clients-box {
     height: 500px;
@@ -106,9 +117,9 @@
     color: var(--nav-textcolor);
     cursor: default;
   }
-  .client {
-    width: 17rem;
-    margin-bottom: 31px;
+
+    .footer-left {
+    padding: 40px 75px;
   }
   .footer-right {
     display: flex;
