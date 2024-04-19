@@ -132,7 +132,7 @@ nav {
   padding-left: 3rem;
   z-index: 999;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   background-color: var(--white);
   top: 0;
   bottom: 0;
