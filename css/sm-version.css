@@ -33,6 +33,9 @@
       font-size: 2rem;
     }
   }
+  .sidebar {
+    display: flex !important;
+  }
   .main__content h1 {
     max-width: 90% !important;
   }

@@ -47,6 +47,9 @@
     display: inline-block !important;
     font-size: 30px;
   }
+  .sidebar2 {
+    display: flex !important;
+  }
   .nav-right {
     display: flex;
     justify-content: end;
