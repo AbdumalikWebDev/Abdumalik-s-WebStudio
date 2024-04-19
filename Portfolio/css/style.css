@@ -30,12 +30,17 @@ body {
   --paragraph-color: #757575;
   --white: #fff;
   --dark-gray: #2f303a;
+  --border-color: #d3d3d3;
 }
 .container {
   width: 80%;
   margin: 0 auto;
 }
-
+.active {
+  &:active {
+    color: var(--hover-color);
+  }
+}
 /*! -------------NAV START--------------- */
 
 nav {
@@ -99,9 +104,6 @@ nav {
     width: 50%;
     justify-content: center;
   }
-  .nav-right .bars {
-    display: none;
-  }
   .nav-right ul {
     display: flex;
     align-items: center;
@@ -117,6 +119,80 @@ nav {
     text-wrap: nowrap;
     font-size: clamp(0.8rem, 1vw, 1.5rem);
   }
+}
+.bars {
+  display: none;
+}
+.sidebar2 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 3rem;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white);
+  top: 0;
+  bottom: 0;
+  transition: 0.5s;
+
+  .close-sidebar2 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 2rem;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  ul li {
+    font-size: 2.5rem;
+    line-height: 200%;
+    a {
+      color: var(--nav-textcolor);
+    }
+  }
+  .sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+  }
+  .tel-and-mail {
+    display: flex;
+    flex-direction: column;
+    .number {
+      color: var(--hover-color);
+      font-size: 2rem;
+      line-height: 250%;
+    }
+    .email {
+      font-size: 1.5rem;
+      color: var(--paragraph-color);
+    }
+  }
+  .sidebar-footer {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      font-size: 1.2rem;
+      padding-right: 2rem;
+      color: var(--hover-color);
+      &:not(:nth-child(1)) {
+        border-left: 1px solid var(--border-color);
+        padding-inline: 2rem;
+      }
+    }
+  }
+}
+.transform-right {
+  transform: translateX(100vw);
 }
 /*! ------------ NAV END -----------------*/
 
