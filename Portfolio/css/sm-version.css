@@ -5,10 +5,6 @@
   nav {
     width: 100%;
   }
-  main {
-    width: 100%;
-  }
-
   .nav-left ul li {
     display: none;
   }
@@ -57,6 +53,9 @@
     width: 40%;
     padding-right: 25px;
     height: 100%;
+  }
+  main {
+    width: 100%;
   }
   .card h5 {
     font-size: 1.3rem !important;
@@ -148,7 +147,7 @@
       font-size: 2rem;
     }
   }
-  .sidebar {
+  .sidebar2 {
     display: flex !important;
   }
   .categories {
